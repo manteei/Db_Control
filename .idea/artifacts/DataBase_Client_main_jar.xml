@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DataBase.Client.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DataBase_Client_main_jar</output-path>
+    <root id="archive" name="DataBase.Client.main.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Client/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="DataBase.Client.main" />
+      <element id="module-output" name="DataBase.Lib.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.3.3/6f639af368afda4c5a3e77a6299262c501e67076/postgresql-42.3.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.5.0/2f50520c8abea66fbd8d26e481d3aef5c673b510/checker-qual-3.5.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,5 @@
+rootProject.name = 'DataBase'
+include 'Client'
+include 'Server'
+include 'Lib'
+

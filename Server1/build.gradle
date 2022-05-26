@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+jar {
+    manifest {
+        attributes "Main-Class": "Org.MainServer"
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    implementation 'org.postgresql:postgresql:42.3.3'
+    implementation 'com.google.guava:guava:+'
+    implementation project(':Lib')
+}
+
